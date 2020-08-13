@@ -1,0 +1,15 @@
+.card-title{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow-y: hidden;
+}
+.card-title::first-letter {
+  text-transform: uppercase;
+}
+.card-text{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow-y: hidden;
+}
